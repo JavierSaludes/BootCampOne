@@ -1,0 +1,13 @@
+aside
+{
+	float: right;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color: #007A7A;
+	font-size: 24px;
+}
+aside#noside
+{
+	float: center;
+	color: #922222;
+	font-size: 24px;	
+}
