@@ -44,10 +44,10 @@ table {
 }
 /*My CSS starts here*/
 
-p, header, footer, ul, li, h1, h2
+p, header, footer, h1, h2
 {
 	font-family: Arial, "MS Trebuchet", sans-serif;
-	color: #000000;
+	color: #FFFFFF;
 	font-size: 24px;
 }
 img 
@@ -70,10 +70,38 @@ aside#noside
 {
 	float: center;
 	color: #922222;
-	font-size: 24px;
-	
+	font-size: 24px;	
 }
 body 
 {
-	background-image: url("../images/celtic.jpeg");
+	background-image: url("../images/blackground.jpg");
+}
+
+ol{
+	list-style-type: upper-alpha; color: red;
+	font-size: 24px;
+}
+ul{
+	list-style: square; color: red;
+	font-size: 24px;
+}
+.center{
+	margin-right: auto;
+	margin-left: auto;
+}
+a:hover{
+	color: #FF3300;
+	background-color: #00FF00;
+}
+a:link{
+	color: purple;
+}
+a:active{
+	color: white;
+}
+a:visited{
+	color: gray;
+}
+p:hover{
+	color: #FF3300;
 }
