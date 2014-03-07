@@ -1,7 +1,7 @@
 /*CSS Reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+a,abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -18,6 +18,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -38,11 +39,17 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
+
+table 
+{
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 /*My CSS starts here*/
+
+
 
 p, header, footer, h1, h2
 {
@@ -50,15 +57,18 @@ p, header, footer, h1, h2
 	color: #FFFFFF;
 	font-size: 24px;
 }
+
 img 
 {
-	margin: 0 20%;
+	margin: 0 25%;
 	padding: 10px 20 px 30px 40px;
 }
+
 section#sidebar
 {
 	float: left;
 }
+
 aside
 {
 	float: right;
@@ -66,42 +76,159 @@ aside
 	color: #004C4C;
 	font-size: 24px;
 }
+
 aside#noside
 {
 	float: center;
 	color: #922222;
 	font-size: 24px;	
 }
-body 
+
+body
 {
 	background-image: url("../images/blackground.jpg");
 }
 
-ol{
+ol
+{
 	list-style-type: upper-alpha; color: red;
 	font-size: 24px;
+	position: absolute;
+	left: 50px;
+	top: 250px; 
 }
-ul{
+
+ul
+{
 	list-style: square; color: red;
 	font-size: 24px;
 }
-.center{
+
+.center
+{
 	margin-right: auto;
 	margin-left: auto;
 }
-a:hover{
+
+a:hover
+{
 	color: #FF3300;
 	background-color: #00FF00;
 }
-a:link{
-	color: purple;
+
+a:link
+{
+	color: #FFFFFF;
 }
-a:active{
-	color: white;
+
+a:active
+{
+	color: #CCFF33;
 }
-a:visited{
-	color: gray;
-}
-p:hover{
+
+p:hover
+{
 	color: #FF3300;
 }
+
+a:visited
+{
+	color: gray;
+}
+
+table#first
+{
+	position: fixed;
+	color: white;
+	font-size: 50px;
+	border: 2px solid red;		
+}
+
+table#best
+{
+	position: absolute;
+	bottom: 10px;
+	background-color: yellow;
+	font-size: 15px;
+	border: 3px solid red;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+
+}
+
+th, td
+{
+	border: 3px solid black;
+}
+
+
+.firstrow:nth-of-type(odd)
+{
+	color: orange;
+	background-color: purple;
+}
+
+.firstrow:nth-of-type(even)
+{
+	background-color: yellow;
+}
+
+tr#table_header
+{
+	background-color: purple;
+}
+
+.bestcol:first-child
+{
+	color: black;
+}
+
+.bestcol:nth-child(3)
+{
+	color: green;
+	background-color: black;
+}
+
+.bestcol:last-child
+{
+	background-color: red;
+}
+
+.bestcol:nth-last-child(3)
+{
+	background-color: orange;
+}
+
+.bestcol:first-of-type
+{
+	background-color: purple;
+}
+
+.bestcol:last-of-type
+{
+	background-color: green;
+}
+
+.bestrow
+{
+	color: white;
+	background-color: blue;
+}
+
+
+thead
+{
+	background-color: white;
+}
+
+p:first-child{color: orange;}
+p:nth-child(2){background-color: purple;}
+p:nth-child(3){background-color: #00FF00;}
+p:last-child{background-color: yellow;}
+p:nth-last-child(2){border-width: 10px; border-style: groove; border-color: red; color: green;}
+
+
+
+
+
