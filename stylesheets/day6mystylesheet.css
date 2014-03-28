@@ -1,0 +1,41 @@
+
+
+
+header 
+{
+	color: red;
+	font-size: 20pt;
+}
+
+body, script 
+{
+	background-image: url("../images/blackground.jpg");
+	background-size: 200px;
+	color: yellow;
+	font-size: 15pt;
+}
+
+
+div#ourColumns
+{
+	-webkit-column-count:3; /* Safari and Chrome */
+	-moz-column-count:3; /* Firefox */
+	column-count:3; /* Everyone Else */
+	-webkit-column-gap:30px; /* Safari and Chrome */
+	-moz-column-gap:30px; /* Firefox */
+	column-gap:30px; /* Everyone Else */
+	-webkit-column-rule:2px outset #F5A9A9;
+	-moz-column-rule:2px outset #F5A9A9;
+	column-rule:2px outset #F5A9A9;
+	width: 825px;
+	height: 850px;
+	font-family: Helvetica, "MS Helvetica Neue", sans-serif;
+	font-size: 20pt;
+	color: red;
+	padding: 35px;
+	border: 5px solid #F5A9A9;
+	background-clip: content-box;#F5A9A9
+	text-indent: 20px;
+}
+
+

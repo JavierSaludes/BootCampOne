@@ -1,0 +1,263 @@
+
+/*My CSS starts here*/
+
+
+
+header, footer, h1, h2, td, a, th
+{
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 10px 10px 10px 10px;
+}
+
+p
+{
+	font-family: Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 10px 10px 10px 10px;
+}
+img 
+{
+	margin: 0 10%;
+	padding: 10px 10px 10px 10px;
+}
+
+section#sidebar
+{
+	float: left;
+}
+section#centersection
+{
+	float: center;
+}
+
+
+table
+{
+	float: center;
+	color: #922222;
+	font-size: 12px;
+}
+
+aside
+{
+	float: left;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color: #004C4C;
+	font-size: 24px;
+}
+
+#noside
+{
+	float: center;
+	color: #922222;
+	font-size: 24px;	
+}
+
+body
+{
+	background-image: url("../images/blackground.jpg");
+	background-size: 200px;
+}
+
+ol
+{
+	list-style-type: upper-alpha; color: red;
+	font-size: 24px;
+	position: absolute;
+	left: 50px;
+	top: 250px; 
+}
+
+ul
+{
+	list-style: square; color: red;
+	font-size: 24px;
+}
+
+.center
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a:hover
+{
+	color: #FF3300;
+	background-color: red;
+}
+
+a:link
+{
+	color: #FFFFFF;
+}
+
+a:active
+{
+	color: #CCFF33;
+}
+
+/*p:hover
+{
+	color: #FF3300;
+}*/
+
+a:visited
+{
+	color: #B2B2B2;
+}
+
+table#first
+{
+	position: fixed;
+	color: white;
+	font-size: 50px;
+	border: 2px solid red;
+	height: 100px;		
+}
+
+table#best
+{
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	font-size: 15px;
+	border: 3px solid red;
+	text-align: left;
+}
+
+table#second
+{
+	
+	bottom: 10px;
+	background-color: yellow;
+	font-size: 15px;
+	border: 3px solid red;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+
+
+
+
+#container 
+{
+width: 1000px;
+overflow: hidden;
+margin: 50px auto;
+background: white;
+}
+
+div
+{
+display: block;
+}
+
+.photobanner 
+{
+height: 233px;
+width: 3550px;
+margin-bottom: 80px;
+}
+
+div 
+{
+display: block;
+}
+
+.photobanner img 
+{
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+.first 
+{
+-webkit-animation: bannermove 30s linear infinite;
+-moz-animation: bannermove 30s linear infinite;
+-ms-animation: bannermove 30s linear infinite;
+-o-animation: bannermove 30s linear infinite;
+animation: bannermove 30s linear infinite;
+}
+
+
+
+
+
+/*
+.firstrow:nth-of-type(odd)
+{
+	color: orange;
+	background-color: purple;
+}
+
+.firstrow:nth-of-type(even)
+{
+	background-color: yellow;
+}
+
+tr#table_header
+{
+	background-color: purple;
+}
+
+.bestcol:first-child
+{
+	color: blue;
+}
+
+.bestcol:nth-child(3)
+{
+	color: red;
+	background-color: black;
+}
+
+.bestcol:last-child
+{
+	background-color: red;
+}
+
+.bestcol:nth-last-child(3)
+{
+	background-color: orange;
+}
+
+.bestcol:first-of-type
+{
+	background-color: purple;
+}
+
+.bestcol:last-of-type
+{
+	background-color: green;
+}
+
+.bestrow
+{
+	color: white;
+	background-color: blue;
+}
+
+
+thead
+{
+	background-color: white;
+}
+
+p:first-child{color: orange;}
+p:nth-child(2){background-color: purple;}
+p:nth-child(3){background-color: #00FF00;}
+p:last-child{background-color: black;}
+p:nth-last-child(2){border-width: 10px; border-style: groove; border-color: red; color: green;}
+
+
+
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Day 9 HTML</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/day6mystylesheet.css">
+</head>
+
+<body>
+	<header><h1>Day 9 HTML/Javascript Examples</h1></header>
+	<button type = "button" onclick="myFunction ()">STOP</button>
+	<button type = "button" onclick= "addText ('Bob')">You Should Stop That!</button>
+	<br>
+	<canvas id="myCanvas" width "200" height="100" style="border:1px solid #d3d3d3;".Your browser does not support the HTML5 canvas tag. I know you are using IE.........STOP!....<a href="www.chrome.com">Get Chrome</a></canvas>
+	
+	<form name="myForm" onsubmit="return sayHello ()">
+	Give me your name! <input type="text" name="name">
+	<input type="submit" value="submit">
+	</form>
+
+	<script>
+		var c=document.getElementById("myCanvas");
+		var ctx=c.getContext("2d");
+		ctx.fillStyle="red";
+		ctx.fillRect(0,0,300,100);
+
+		ctx.lineWidth=2;
+		ctx.beginPath();
+		ctx.moveTo(15,100);
+		ctx.lineTo(15,50);
+		ctx.lineTo(35,0);
+		ctx.lineTo(70,40);
+		ctx.lineTo(90,40);
+		ctx.lineTo(110,40);
+		ctx.lineTo(145,0);
+		ctx.lineTo(165,50);
+		ctx.lineTo(165,100);
+		ctx.stroke();
+		ctx.closePath();
+
+		ctx.beginPath();
+		ctx.arc(55,75,20,0,2*Math.PI);
+		ctx.stroke();
+		ctx.closePath();
+
+		ctx.beginPath();
+		ctx.arc(55,75,5,0,2*Math.PI);
+		ctx.stroke();
+		ctx.closePath();
+
+		ctx.beginPath();
+		ctx.arc(125,75,20,0,2*Math.PI);
+		ctx.stroke();
+		ctx.closePath();
+
+		ctx.beginPath();
+		ctx.arc(125,75,5,0,2*Math.PI);
+		ctx.stroke();
+		ctx.closePath();
+
+		ctx.beginPath();
+		ctx.fillStyle="#000000";
+		ctx.font="23px Georgia";
+		var gradient=ctx.createLinearGradient(25,0,c.width,0);
+		gradient.addColorStop("0.25","magenta");
+		gradient.addColorStop("0.5","blue");
+		gradient.addColorStop(".75","green");
+		gradient.addColorStop("1.0","yellow");
+		ctx.strokeStyle=gradient;
+		ctx.strokeText("Sneaky Kitty",168,95);
+		ctx.closePath();
+
+		/*function sayHello ()
+		{
+			var x=document.forms["myForm"]["name"].value;
+			document.write("Hello" + x);
+		}
+		var a = 3;
+		var b = 4;
+		var c = a * b;
+		var d = "DOG";
+		alert(d);*/
+		
+		function myFunction ()
+		{
+			alert ("In the name of love!")
+		}
+		var temp = (Bob)
+		function addText (name)
+		{
+			document.write("<h3> Or <h1 id=\"name\">" + name +"</h1> will hurt you!</h3>");
+			document.write("<button type=\"button\" onclick=\"changeColor()\">Click!</button> ");
+		}
+		function changeColor ()
+		{
+			var x = document.getElementById("name");
+			x.style.color = "#DC143C";
+			if (x.innerHTML == "Bob")
+			{
+				document.write("<h1>No Bob, no.</h1>")
+			}
+		}
+	</script>
+</body>
+
+</html>
