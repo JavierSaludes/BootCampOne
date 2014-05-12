@@ -1,0 +1,305 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a,abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0 10px;
+	padding: 10px 20 px 30px 40px;
+	border: 15;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*My CSS starts here*/
+
+
+
+p, header, footer, h1, h2
+{
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+img 
+{
+	margin: 0 25%;
+	padding: 10px 20 px 30px 40px;
+}
+
+section#sidebar
+{
+	float: left;
+}
+
+aside
+{
+	float: right;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color: #004C4C;
+	font-size: 24px;
+	background-color: #FF0000;
+}
+
+aside#noside
+{
+	float: center;
+	color: #922222;
+	font-size: 24px;	
+}
+
+body
+{
+	background-image: url("../images/blackground.jpg");
+	background-size: 200px;
+}
+
+ol
+{
+	list-style-type: upper-alpha; color: red;
+	font-size: 24px;
+	position: absolute;
+	left: 50px;
+	top: 250px; 
+}
+
+ul
+{
+	list-style: square; color: red;
+	font-size: 24px;
+}
+
+.center
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a:hover
+{
+	color: #FF3300;
+	background-color: #00FF00;
+}
+
+a:link
+{
+	color: #FFFFFF;
+}
+
+a:active
+{
+	color: #CCFF33;
+}
+
+p:hover
+{
+	color: #FF3300;
+}
+
+a:visited
+{
+	color: gray;
+}
+
+table#first
+{
+	position: fixed;
+	color: white;
+	font-size: 50px;
+	border: 2px solid red;
+	height: 100px;		
+}
+
+table#best
+{
+	position: absolute;
+	bottom: 10px;
+	background-color: yellow;
+	font-size: 15px;
+	border: 3px solid red;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {margin: 0; padding: 0;}
+ 
+body 
+{
+    <!-- src: http://subtlepatterns.com/?p=1045 -->
+    background: url('dark_geometric.png');
+}
+ 
+#container 
+{
+    width: 1000px;
+    overflow: hidden;
+    margin: 50px auto;
+    background: white;
+}
+
+/*header*/
+header 
+{
+width: 800px;
+margin: 40px auto;
+}
+
+header h1 
+{
+text-align: center;
+font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+ }
+ 
+header p 
+{
+font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+text-align: justify;
+}
+ 
+/*photobanner*/
+ 
+.photobanner 
+{
+height: 233px;
+width: 3550px;
+margin-bottom: 80px;
+}
+
+/*keyframe animations*/
+.first 
+{
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+
+.photobanner 
+{
+    height: 233px;
+    width: 3550px;
+    margin-bottom: 80px;
+}
+ 
+.photobanner img 
+{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+ 
+.photobanner img:hover 
+{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+ 
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
